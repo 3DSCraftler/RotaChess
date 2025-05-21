@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "rotachess/src/index.tsx",
+      "src": "rotachess/package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "rotachess/build"
