@@ -1,0 +1,9 @@
+[build]
+  base = "C:/Users/Tobias/Desktop/Coding/Git Project/RotaChess/rotachess"  # Basisverzeichnis, wo npm installiert ist
+  command = "npm run build"  # Der Befehl, um den Build zu erstellen
+  publish = "C:/Users/Tobias/Desktop/Coding/Git Project/RotaChess/rotachess/build"  # Der Pfad zum Build-Ordner
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
