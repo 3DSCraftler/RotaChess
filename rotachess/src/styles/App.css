@@ -1,0 +1,142 @@
+:root {
+  --white-bg: #e6e6ff;
+  --black-bg: #111119;
+  --white-fg: #e6e6ff;
+  --black-fg: #111119;
+  --highlight-outline: #4ac6a9;
+  --text-light: #bbd;
+  --bg-dark: #334;
+  --bg-darker: #223;
+  --bg-darker2: #112;
+  --fg-overlay: rgba(255, 255, 255, 0.8);
+}
+
+body {
+  background-color: var(--bg-dark);
+}
+body * {
+  color: var(--text-light);
+}
+
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  margin-top: 2rem;
+}
+
+.App h5 {
+  margin-top: -1rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 3px dotted var(--bg-darker2);
+  background: linear-gradient(to top, var(--bg-darker), var(--bg-dark));
+}
+
+.App p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.chessboard-wrapper {
+  position: relative;
+  padding-top: 1.5rem;
+  /* width: 500px; */
+  width: 31.25rem;
+  height: 31.25rem;
+  margin: 0 auto;
+  user-select: none;
+  cursor: default;
+}
+
+.move-history {
+  max-width: 500px;
+  margin: 1rem auto;
+  border: 1px dotted var(--bg-darker2);
+  padding: 0;
+  border-radius: 5px;
+}
+
+.move-history div {
+  border: none;
+  margin: 1rem auto;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.move-history ol {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: var(--bg-darker);
+  text-align: left;
+  min-height: 2.35rem;
+}
+
+.move-history li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 4px;
+  padding-bottom: 0.3rem;
+}
+
+.move-span {
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 2px;
+}
+
+.white-bg {
+  background-color: var(--white-bg);
+  color: var(--black-fg);
+}
+
+.black-bg {
+  background-color: var(--black-bg);
+  color: var(--white-fg);
+}
+
+.highlight {
+  outline: 2px solid var(--highlight-outline);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.buttons button {
+  background-color: var(--bg-darker);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  width: 3rem;
+}
+
+
+
+.dev-tools {
+  /* display: none; */
+  max-width: 500px;
+  margin: 1rem auto;
+  margin-top: 3.2rem;
+  margin-bottom: 5rem;
+  padding: 0;
+  border: 1px dotted var(--bg-darker2);
+  border-radius: 5px;
+}
+
+.App .dev-button1 {
+  /* display: none; */
+  background-color: var(--bg-darker);
+  padding: 0.5rem;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  width: 20rem;
+}

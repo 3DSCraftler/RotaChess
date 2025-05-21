@@ -1,0 +1,60 @@
+body {
+	background-color: #334;
+}
+body * {
+	color: #bbd;
+}
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  margin-top: 2rem;
+}
+
+.App p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* App.css */
+.chessboard-wrapper {
+	padding-top: 1.5rem;
+	max-width: 500px;
+	margin: 0 auto;
+	user-select: none;
+	cursor: default;
+}
+ol {
+	margin: 1rem;
+	padding: 0.5rem;
+	background-color: #223;
+	text-align: left;
+}
+li {
+	display: inline;
+}
+
+.move-history {
+	max-width: 500px;
+	margin: 0rem auto;
+	margin-top: 1rem;
+	border: 1px dotted #112;
+	padding: 0;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	border-radius: 5px;
+}
+.buttons button {
+	background-color: #223;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	width: 3rem;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin: 1rem 0;
+}

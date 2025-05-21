@@ -1,0 +1,15 @@
+gamemode:
+
+[ ] Game modes:
+[ ] 	normal
+[ ] 	CLASSIC RotaChess (chance of 180° roations, vlt auch einstellbar vor spielbeginn)
+[ ] 	1/4 RotaChess (90° roations after every n-th move, vlt auch einstellbar vor spielbeginn)
+
+[ ] normal game but with likelihood of mulitple 180° game switches
+[X] implement 180° game switches
+
+[ ] bei move buttons: inspect only mode (for mutiplayer)
+[ ] friend invite codes
+[ ] invite click: options: player or spectator
+
+[ ] Nach 180° Rotation funktioniert zwar die Move History, aber die Figuren buggen visuell (wegen der alten FEN)
