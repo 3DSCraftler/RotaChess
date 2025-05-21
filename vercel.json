@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "rotachess/src/index.tsx",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "rotachess/build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/rotachess/build/index.html"
+    }
+  ]
+}
